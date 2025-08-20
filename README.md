@@ -29,6 +29,6 @@ By building my_malloc, I gained deeper insight into heap management, pointer ari
 
 This file contains the full implementation of the custom memory allocator. It defines my_malloc() and my_free(), along with supporting functions for managing the free list, splitting and coalescing memory chunks, and validating block headers with a magic number. It represents the core logic of the project, handling all memory allocation and deallocation.
 
-# my_malloc-driver.c
+**my_malloc-driver.c**
 
 This driver file provides a testing harness for the allocator. It allocates and frees memory using my_malloc() and my_free(), checks alignment and header values, validates error handling, and prints out the state of the free list for debugging. It demonstrates how the allocator behaves under different scenarios and ensures correctness.
