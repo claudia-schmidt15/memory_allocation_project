@@ -1,7 +1,7 @@
 # Custom Memory Allocator (my_malloc)
 **Overview**
 
-August to December 2024, Systems Programming (CS 350)
+August to December 2024, Systems Programming (CS 350), Emory University 
 
 This project implements a custom dynamic memory allocator in C, providing replacements for standard library functions like malloc() and free(). It demonstrates how memory can be managed manually inside the heap, including chunk splitting, coalescing adjacent free blocks, and managing a free list for efficiency.
 By building my_malloc, I gained deeper insight into heap management, pointer arithmetic, memory alignment, and low-level systems programming concepts.
