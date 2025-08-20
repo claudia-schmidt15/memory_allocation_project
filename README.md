@@ -1,5 +1,7 @@
 # Custom Memory Allocator (my_malloc)
-# Overview
+**Overview**
+
+August to December 2024, Systems Programming (CS 350)
 
 This project implements a custom dynamic memory allocator in C, providing replacements for standard library functions like malloc() and free(). It demonstrates how memory can be managed manually inside the heap, including chunk splitting, coalescing adjacent free blocks, and managing a free list for efficiency.
 By building my_malloc, I gained deeper insight into heap management, pointer arithmetic, memory alignment, and low-level systems programming concepts.
@@ -21,8 +23,8 @@ Features:
   - Prevents invalid frees and overlapping allocations.
 - Handles allocation failures gracefully.
 
-# Included Files
-# my_malloc.c
+**Included Files**
+**my_malloc.c**
 
 This file contains the full implementation of the custom memory allocator. It defines my_malloc() and my_free(), along with supporting functions for managing the free list, splitting and coalescing memory chunks, and validating block headers with a magic number. It represents the core logic of the project, handling all memory allocation and deallocation.
 
